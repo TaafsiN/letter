@@ -1,0 +1,61 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  font-family: system-ui, sans-serif;
+
+}
+.page-3 {
+  background: linear-gradient(180deg, #ffbafd 0%, #9acdff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 20px;
+}
+.letter-wrap {
+  width: 86%;
+  max-width: 420px;
+  height: 86%;
+  max-height: 720px;
+}
+.letter {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 15px 50px rgb(0, 0, 0);
+  padding: 20px;
+  overflow-y: auto;background-color: rgb(215, 246, 254);
+}
+.letter-body {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #222;
+  
+}
+.final-line {
+  margin-top: 1rem;
+  font-weight: 700;
+  color: #6b4a7a;
+}
+.see-image-btn {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: #00b70c;
+  text-decoration: none;
+  color: #fff1f1;
+  font-weight: 600;
+}
+.back-link {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  background: rgba(255,255,255,0.7);
+  padding: 6px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #333;
+}
